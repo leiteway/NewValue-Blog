@@ -12,8 +12,6 @@ const LayoutPublic = () => {
     <SolidButton />
     <Outlet />
     <Footer />
-   
-    <Outlet />
     </>
   );
 }
