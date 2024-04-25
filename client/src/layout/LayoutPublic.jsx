@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import SolidButton from "../components/Solid-button/Solid-button";
+import { Outlet } from "react-router-dom";
+
 
 const LayoutPublic = () => {
   return (
@@ -10,8 +12,10 @@ const LayoutPublic = () => {
     <SolidButton />
     <Outlet />
     <Footer />
+   
+    <Outlet />
     </>
-  )
+  );
 }
 
-export default LayoutPublic
+export default LayoutPublic;
