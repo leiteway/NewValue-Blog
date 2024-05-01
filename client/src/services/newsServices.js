@@ -1,6 +1,7 @@
 import axios from "axios";
+import { API_URL } from "../../config";
 
-const URLAPI_NEWS = 'http://localhost:3000/api/news/'; //json-server URL
+const URLAPI_NEWS = `${API_URL}/news/`;
 
 const token = localStorage.getItem('token');
 const headers = { 'Authorization': `Bearer ${token}` }
@@ -15,12 +16,12 @@ export const getAllNews = async () => {
   }
 };
 
-export const getOneNews = async (id) => {
+export const getNewsById = async (id) => {
   try {
     const response = await axios.get(`${URLAPI_NEWS + id}`, { headers });
     return response.data;
   } catch (error) {
-    console.error(`Error reading news with id ${id}:`, error);
+    console.error(`Error reading news`, error);
     throw error;
   }
 };
