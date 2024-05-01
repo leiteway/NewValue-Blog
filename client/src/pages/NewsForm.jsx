@@ -3,6 +3,7 @@ import { createNews, updateNews } from '../services/newsServices';
 import { useLoaderData, useNavigate, useParams } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { uploadImage } from '../helpers/cloudinary';
+import { LinkedinShareButton } from 'react-share'
 
 const NewsForm = ({ method }) => {
   const { handleSubmit, register, setValue, formState: { errors } } = useForm();
@@ -69,6 +70,7 @@ const NewsForm = ({ method }) => {
 
       <button type="submit">{method === "create" ? "Publicar noticia" : "Guardar"}</button>
       <button onClick={() => navigate('/dashboard')}>Descartar</button>
+      <LinkedinShareButton>Compartir en LinkedIn</LinkedinShareButton>
     </form>
   )
 }
