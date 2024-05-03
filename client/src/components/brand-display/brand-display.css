@@ -1,0 +1,46 @@
+.brand-display-container {
+  gap: var(--dl-space-space-doubleunit);
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.brand-display-image {
+  width: auto;
+  height: 50px;
+  object-fit: cover;
+}
+.brand-display-image1 {
+  width: auto;
+  height: 50px;
+  object-fit: cover;
+}
+.brand-display-image2 {
+  width: auto;
+  height: 50px;
+  object-fit: cover;
+}
+.brand-display-image3 {
+  width: auto;
+  height: 50px;
+  object-fit: cover;
+}
+.brand-display-image4 {
+  width: auto;
+  height: 50px;
+  object-fit: cover;
+}
+.brand-display-image5 {
+  width: auto;
+  height: 50px;
+  object-fit: cover;
+}
+
+
+

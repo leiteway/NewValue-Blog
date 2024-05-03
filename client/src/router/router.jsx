@@ -1,12 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom';
 import LayoutPublic from '../layout/LayoutPublic.jsx';
-import Home from '../pages/Home.jsx';
-import Login from '../pages/Login.jsx';
-import NewsDetails from '../pages/NewsDetails.jsx'
+import Home from '../pages/Home/Home.jsx';
+import Login from '../pages/Login/Login.jsx';
+import NewsDetails from '../pages/NewsDetails/NewsDetails.jsx';
 import LayoutPrivate from '../layout/LayoutPrivate.jsx';
-import Register from '../pages/Register.jsx';
-import NewsForm from '../pages/NewsForm.jsx';
-import Dashboard from '../pages/Dashboard.jsx';
+import Register from '../pages/Register/Register.jsx';
+import NewsForm from '../pages/NewsForm/NewsForm.jsx';
+import Dashboard from '../pages/dashboard/Dashboard.jsx';
 
 
 

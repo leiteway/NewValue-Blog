@@ -1,4 +1,4 @@
-import { useUserContext } from '../context/UserContext';
+import { useUserContext } from '../../context/UserContext';
 
 const Dashboard = () => {
     const { user } = useUserContext();

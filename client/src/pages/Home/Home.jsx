@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { getAllNews } from "../services/newsServices.js";
-import Card from '../components/Card.jsx';
+import { getAllNews } from "../../services/newsServices.js";
+import Card from '../../components/Card.jsx';
 
 const Home = () => {
   const [news, setNews] = useState([]);

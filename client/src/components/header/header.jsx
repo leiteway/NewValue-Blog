@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
-import SolidButtonWhite from '../Solid-button-white/solid-button-white'
-import './Navbar.css'
+import SolidButtonWhite from '../solid-button-white/solid-button-white'
+import './header.css'
 
 const Header = (props) => {
   return (
@@ -177,4 +177,4 @@ Header.propTypes = {
   rootClassName: PropTypes.string,
 }
 
-export default Navbar
+export default Header

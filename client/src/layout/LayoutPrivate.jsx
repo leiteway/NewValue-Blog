@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import { useUserContext } from "../context/UserContext";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
-import SolidButton from "../components/Solid-button/Solid-button";
+import Header from "../components/header/header";
+import Footer from "../components/footer/footer";
+import SolidButton from "../components/solid-button/solid-button";
 
 const LayoutPrivate = () => {
   const { user } = useUserContext();
@@ -17,7 +17,7 @@ const LayoutPrivate = () => {
 
   return (
     <>
-    <Navbar />
+    <Header />
     <SolidButton />
     <Outlet /> : <Navigate to = "/"/>
     <Footer />

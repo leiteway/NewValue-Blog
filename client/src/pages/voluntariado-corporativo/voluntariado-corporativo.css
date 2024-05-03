@@ -1,0 +1,399 @@
+.voluntariado-corporativo-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.voluntariado-corporativo-top-container {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.voluntariado-corporativo-hero {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.voluntariado-corporativo-content-container {
+  gap: var(--dl-space-space-doubleunit);
+  display: flex;
+  margin-top: var(--dl-space-space-quadruple);
+  align-items: center;
+  flex-direction: column;
+}
+.voluntariado-corporativo-text {
+  color: var(--dl-color-gray-black);
+  max-width: 990px;
+  text-align: center;
+}
+.voluntariado-corporativo-text01 {
+  font-size: 1.6rem;
+  max-width: 990px;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+}
+.voluntariado-corporativo-container01 {
+  gap: var(--dl-space-space-quadruple);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.voluntariado-corporativo-container02 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.voluntariado-corporativo-mosaic-component {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-primary-400);
+}
+.voluntariado-corporativo-container03 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/webp/plantando.webp");
+}
+.voluntariado-corporativo-container04 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 50%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.voluntariado-corporativo-text02 {
+  color: rgb(255, 255, 255);
+  line-height: 1.55;
+}
+.voluntariado-corporativo-ul {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  list-style-position: outside;
+}
+.voluntariado-corporativo-li {
+  color: var(--dl-color-gray-white);
+}
+.voluntariado-corporativo-text04 {
+  font-style: normal;
+  font-weight: 700;
+}
+.voluntariado-corporativo-li01 {
+  color: var(--dl-color-gray-white);
+}
+.voluntariado-corporativo-text07 {
+  font-style: normal;
+  font-weight: 700;
+}
+.voluntariado-corporativo-li02 {
+  color: var(--dl-color-gray-white);
+}
+.voluntariado-corporativo-text10 {
+  font-style: normal;
+  font-weight: 700;
+}
+.voluntariado-corporativo-li03 {
+  color: var(--dl-color-gray-white);
+}
+.voluntariado-corporativo-text14 {
+  font-style: normal;
+  font-weight: 700;
+}
+.voluntariado-corporativo-li04 {
+  color: var(--dl-color-gray-white);
+}
+.voluntariado-corporativo-text18 {
+  font-style: normal;
+  font-weight: 700;
+}
+.voluntariado-corporativo-li05 {
+  color: var(--dl-color-gray-white);
+}
+.voluntariado-corporativo-text22 {
+  font-style: normal;
+  font-weight: 700;
+}
+.voluntariado-corporativo-li06 {
+  color: var(--dl-color-gray-white);
+}
+.voluntariado-corporativo-text26 {
+  font-style: normal;
+  font-weight: 700;
+}
+.voluntariado-corporativo-mosaic-component1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #808ec6;
+}
+.voluntariado-corporativo-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 50%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.voluntariado-corporativo-text29 {
+  color: rgb(255, 255, 255);
+  line-height: 1.55;
+}
+.voluntariado-corporativo-ul1 {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  list-style-position: outside;
+}
+.voluntariado-corporativo-li07 {
+  color: var(--dl-color-gray-white);
+}
+.voluntariado-corporativo-text31 {
+  font-style: normal;
+  font-weight: 700;
+}
+.voluntariado-corporativo-li08 {
+  color: var(--dl-color-gray-white);
+}
+.voluntariado-corporativo-text34 {
+  font-style: normal;
+  font-weight: 700;
+}
+.voluntariado-corporativo-li09 {
+  color: var(--dl-color-gray-white);
+}
+.voluntariado-corporativo-text37 {
+  font-style: normal;
+  font-weight: 700;
+}
+.voluntariado-corporativo-li10 {
+  color: var(--dl-color-gray-white);
+}
+.voluntariado-corporativo-container06 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/webp/manos-1500h.webp");
+  background-position: bottom;
+}
+.voluntariado-corporativo-videos-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.voluntariado-corporativo-hero1 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.voluntariado-corporativo-content-container1 {
+  gap: var(--dl-space-space-doubleunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.voluntariado-corporativo-subheading {
+  color: var(--dl-color-gray-black);
+  max-width: 990px;
+  align-self: center;
+  text-align: center;
+}
+.voluntariado-corporativo-container07 {
+  gap: var(--dl-space-space-doubleunit);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.voluntariado-corporativo-container09 {
+  display: contents;
+}
+.voluntariado-corporativo-container11 {
+  display: contents;
+}
+.voluntariado-corporativo-container12 {
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: center;
+  margin-left: var(--dl-space-space-doubleunit);
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-quadruple);
+  flex-direction: column;
+}
+.voluntariado-corporativo-navlink {
+  display: contents;
+}
+.voluntariado-corporativo-component4 {
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .voluntariado-corporativo-hero {
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .voluntariado-corporativo-container02 {
+    gap: var(--dl-space-space-unit);
+  }
+  .voluntariado-corporativo-mosaic-component {
+    flex-direction: column;
+  }
+  .voluntariado-corporativo-container03 {
+    top: 0px;
+    left: 0px;
+    height: 10em;
+    margin: auto;
+    position: absolute;
+    background-size: cover;
+    background-image: url("/webp/plantando.webp");
+    background-position: center;
+  }
+  .voluntariado-corporativo-container04 {
+    max-width: 100%;
+    margin-top: 10em;
+  }
+  .voluntariado-corporativo-mosaic-component1 {
+    flex-direction: column;
+  }
+  .voluntariado-corporativo-container05 {
+    max-width: 100%;
+    margin-top: 10em;
+  }
+  .voluntariado-corporativo-container06 {
+    top: 0px;
+    left: 0px;
+    height: 10em;
+    margin: auto;
+    position: absolute;
+    background-size: cover;
+    background-image: url("/webp/manos-1500h.webp");
+    background-position: center;
+  }
+  .voluntariado-corporativo-hero1 {
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+}
+@media(max-width: 767px) {
+  .voluntariado-corporativo-hero {
+    justify-content: center;
+  }
+  .voluntariado-corporativo-content-container {
+    align-items: center;
+  }
+  .voluntariado-corporativo-text {
+    font-size: 2.5rem;
+  }
+  .voluntariado-corporativo-container01 {
+    padding-left: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .voluntariado-corporativo-container02 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .voluntariado-corporativo-container04 {
+    width: 100%;
+    max-width: 100%;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .voluntariado-corporativo-container05 {
+    width: 100%;
+    max-width: 100%;
+    padding-top: var(--dl-space-space-doubleunit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-doubleunit);
+  }
+  .voluntariado-corporativo-text31 {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .voluntariado-corporativo-text32 {
+    font-weight: 400;
+  }
+  .voluntariado-corporativo-hero1 {
+    justify-content: center;
+  }
+  .voluntariado-corporativo-content-container1 {
+    align-items: center;
+  }
+}
+@media(max-width: 479px) {
+  .voluntariado-corporativo-hero {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-doubleunit);
+  }
+  .voluntariado-corporativo-text {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: var(--dl-space-space-halfunit);
+  }
+  .voluntariado-corporativo-text01 {
+    font-size: 1.25rem;
+  }
+  .voluntariado-corporativo-container01 {
+    padding-left: 0px;
+  }
+}

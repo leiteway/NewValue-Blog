@@ -2,7 +2,7 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './Solid-button.css'
+import './solid-button.css'
 
 const SolidButton = (props) => {
   return (

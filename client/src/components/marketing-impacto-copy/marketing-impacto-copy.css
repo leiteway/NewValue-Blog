@@ -1,0 +1,315 @@
+.marketing-impacto-copy-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.marketing-impacto-copy-top-container {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.marketing-impacto-copy-hero {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  margin-top: var(--dl-space-space-quadruple);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.marketing-impacto-copy-content-container {
+  gap: var(--dl-space-space-doubleunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.marketing-impacto-copy-text {
+  color: var(--dl-color-gray-black);
+  max-width: 990px;
+  text-align: center;
+}
+.marketing-impacto-copy-subheading {
+  color: var(--dl-color-gray-black);
+  font-size: 1.6rem;
+  max-width: 990px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+}
+.marketing-impacto-copy-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+}
+.marketing-impacto-copy-mosaic-component {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-primary-400);
+}
+.marketing-impacto-copy-container2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/webp/niniosaltando-1500h.webp");
+  background-repeat: no-repeat;
+}
+.marketing-impacto-copy-container3 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 50%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.marketing-impacto-copy-text01 {
+  color: rgb(255, 255, 255);
+}
+.marketing-impacto-copy-text02 {
+  font-weight: 700;
+}
+.marketing-impacto-copy-text04 {
+  color: rgb(255, 255, 255);
+}
+.marketing-impacto-copy-text06 {
+  font-style: normal;
+  font-weight: 700;
+}
+.marketing-impacto-copy-text08 {
+  font-style: normal;
+  font-weight: 500;
+}
+.marketing-impacto-copy-text09 {
+  font-style: normal;
+  font-weight: 500;
+}
+.marketing-impacto-copy-text11 {
+  font-style: normal;
+  font-weight: 700;
+}
+.marketing-impacto-copy-mosaic-component1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #214f66;
+}
+.marketing-impacto-copy-container4 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 50%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.marketing-impacto-copy-text14 {
+  color: rgb(255, 255, 255);
+}
+.marketing-impacto-copy-text15 {
+  font-style: normal;
+  font-weight: 700;
+}
+.marketing-impacto-copy-ul {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  list-style-position: outside;
+}
+.marketing-impacto-copy-li {
+  color: var(--dl-color-gray-white);
+}
+.marketing-impacto-copy-text17 {
+  font-size: 1em;
+}
+.marketing-impacto-copy-text18 {
+  font-style: normal;
+  font-weight: 700;
+}
+.marketing-impacto-copy-li1 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.25em;
+}
+.marketing-impacto-copy-text21 {
+  font-style: normal;
+  font-weight: 700;
+}
+.marketing-impacto-copy-li2 {
+  color: var(--dl-color-gray-white);
+}
+.marketing-impacto-copy-text23 {
+  font-size: 1rem;
+}
+.marketing-impacto-copy-text24 {
+  font-style: normal;
+  font-weight: 700;
+}
+.marketing-impacto-copy-li3 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.25em;
+}
+.marketing-impacto-copy-text28 {
+  font-style: normal;
+  font-weight: 700;
+}
+.marketing-impacto-copy-li4 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.25em;
+}
+.marketing-impacto-copy-text32 {
+  font-style: normal;
+  font-weight: 700;
+}
+.marketing-impacto-copy-li5 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.25em;
+}
+.marketing-impacto-copy-text36 {
+  font-style: normal;
+  font-weight: 700;
+}
+.marketing-impacto-copy-li6 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.25em;
+}
+.marketing-impacto-copy-text40 {
+  font-style: normal;
+  font-weight: 700;
+}
+.marketing-impacto-copy-li7 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.25em;
+}
+.marketing-impacto-copy-text43 {
+  font-style: normal;
+  font-weight: 700;
+}
+.marketing-impacto-copy-container5 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/webp/objetivo-1500h.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media(max-width: 991px) {
+  .marketing-impacto-copy-hero {
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .marketing-impacto-copy-container1 {
+    gap: var(--dl-space-space-unit);
+  }
+  .marketing-impacto-copy-mosaic-component {
+    flex-direction: column;
+  }
+  .marketing-impacto-copy-container2 {
+    top: 0px;
+    left: 0px;
+    height: 10em;
+    margin: auto;
+    position: absolute;
+    background-size: cover;
+    background-image: url("/webp/niniosaltando-1500h.webp");
+    background-position: center;
+  }
+  .marketing-impacto-copy-container3 {
+    max-width: 100%;
+    margin-top: 10em;
+  }
+  .marketing-impacto-copy-mosaic-component1 {
+    flex-direction: column;
+  }
+  .marketing-impacto-copy-container4 {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10em;
+  }
+  .marketing-impacto-copy-container5 {
+    top: 0px;
+    left: 0px;
+    height: 10em;
+    margin: auto;
+    position: absolute;
+    background-size: cover;
+    background-image: url("/webp/objetivo-1500h.webp");
+    background-position: center;
+  }
+}
+@media(max-width: 767px) {
+  .marketing-impacto-copy-hero {
+    justify-content: center;
+  }
+  .marketing-impacto-copy-content-container {
+    align-items: center;
+  }
+  .marketing-impacto-copy-text {
+    font-size: 2.5rem;
+  }
+  .marketing-impacto-copy-subheading {
+    font-size: 1.25rem;
+  }
+  .marketing-impacto-copy-container1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .marketing-impacto-copy-container3 {
+    width: 100%;
+    max-width: 100%;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .marketing-impacto-copy-container4 {
+    width: 100%;
+    max-width: 100%;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .marketing-impacto-copy-hero {
+    padding: var(--dl-space-space-unit);
+  }
+  .marketing-impacto-copy-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+}

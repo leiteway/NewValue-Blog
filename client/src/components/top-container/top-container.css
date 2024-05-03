@@ -1,0 +1,134 @@
+.top-container-top-container {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("/webp/willy-1500w.webp");
+  background-position: top left;
+}
+.top-container-hero {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  margin-top: var(--dl-space-space-quadruple);
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.top-container-content-container {
+  gap: var(--dl-space-space-doubleunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.top-container-container {
+  gap: var(--dl-space-space-doubleunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.top-container-text {
+  color: var(--dl-color-gray-white);
+  max-width: 990px;
+  text-align: center;
+}
+.top-container-subheading {
+  color: var(--dl-color-gray-white);
+  font-size: 1.6rem;
+  max-width: 990px;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+}
+.top-container-container1 {
+  gap: var(--dl-space-space-quadruple);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+@media(max-width: 991px) {
+  .top-container-hero {
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+}
+@media(max-width: 767px) {
+  .top-container-hero {
+    justify-content: center;
+  }
+  .top-container-content-container {
+    align-items: center;
+  }
+  .top-container-text {
+    font-size: 2.5rem;
+  }
+  .top-container-container1 {
+    padding-left: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .top-container-top-container {
+    width: 100%;
+    height: auto;
+    background: white;
+  }
+  .top-container-hero {
+    margin-top: 0px;
+    padding-top: 5em;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .top-container-content-container {
+    gap: 0;
+    height: 100%;
+  }
+  .top-container-container {
+    gap: var(--dl-space-space-doubleunit);
+    flex-direction: column;
+    background-size: cover;
+    background-image: url("/webp/willy-1500w.webp");
+  }
+  .top-container-text {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .top-container-subheading {
+    font-size: 1.25rem;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .top-container-container1 {
+    height: 100%;
+    margin-top: 0px;
+    padding-top: var(--dl-space-space-quadruple);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-doubleunit);
+    background-color: #eae1d1;
+  }
+}

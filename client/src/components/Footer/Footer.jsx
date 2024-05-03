@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
-import './Footer.css'
+import './footer.css'
 
 const Footer = (props) => {
   return (

@@ -1,0 +1,198 @@
+.index-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.index-top-container {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("/webp/nenica-1500w.webp");
+  background-position: top;
+}
+.index-hero {
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  min-height: 800px;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-tripleunit);
+  justify-content: center;
+}
+.index-content-container {
+  gap: var(--dl-space-space-doubleunit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.index-text {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+  max-width: 990px;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 1.55;
+  text-transform: none;
+  text-decoration: none;
+}
+.index-subheading {
+  color: var(--dl-color-gray-white);
+  font-size: 1.6rem;
+  max-width: 990px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+}
+.index-container1 {
+  gap: var(--dl-space-space-quadruple);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.index-navlink {
+  display: contents;
+}
+.index-component1 {
+  text-decoration: none;
+}
+.index-navlink1 {
+  display: contents;
+}
+.index-component2 {
+  text-decoration: none;
+}
+.index-navlink2 {
+  display: contents;
+}
+.index-component4 {
+  text-decoration: none;
+}
+.index-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("/webp/wallemojado-1500w.webp");
+  background-position: center;
+}
+.index-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  align-self: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+.index-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  max-width: 50%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.61);
+}
+.index-text03 {
+  color: rgb(255, 255, 255);
+}
+.index-ul {
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  list-style-position: outside;
+}
+.index-li {
+  color: var(--dl-color-gray-white);
+  font-size: 1.25em;
+}
+.index-text08 {
+  font-style: normal;
+  font-weight: 700;
+}
+.index-li1 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.25em;
+}
+.index-text14 {
+  font-style: normal;
+  font-weight: 700;
+}
+.index-li2 {
+  color: var(--dl-color-gray-white);
+  font-size: 1rem;
+}
+.index-text19 {
+  font-style: normal;
+  font-weight: 700;
+}
+.index-li3 {
+  color: var(--dl-color-gray-white);
+  font-size: 1rem;
+}
+.index-text25 {
+  font-style: normal;
+  font-weight: 700;
+}
+@media(max-width: 767px) {
+  .index-hero {
+    justify-content: center;
+  }
+  .index-content-container {
+    align-items: center;
+  }
+  .index-text {
+    font-size: 2.5rem;
+  }
+  .index-subheading {
+    font-size: 1.25rem;
+  }
+  .index-container1 {
+    gap: var(--dl-space-space-doubleunit);
+  }
+  .index-container4 {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .index-hero {
+    width: 100%;
+    padding: var(--dl-space-space-unit);
+    min-height: 750px;
+  }
+  .index-text {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .index-container3 {
+    padding: var(--dl-space-space-unit);
+  }
+  .index-container4 {
+    padding: var(--dl-space-space-unit);
+  }
+}

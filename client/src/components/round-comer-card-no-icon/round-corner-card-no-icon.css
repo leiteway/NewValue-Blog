@@ -1,0 +1,28 @@
+.round-corner-card-no-icon-container {
+  width: 400px;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  position: relative;
+  min-height: auto;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-primary-100);
+}
+.round-corner-card-no-icon-text {
+  color: var(--dl-color-gray-white);
+  font-size: 1em;
+}
+.round-corner-card-no-icon-text1 {
+  color: var(--dl-color-gray-white);
+  font-size: 1em;
+  max-height: auto;
+  text-align: center;
+}
+.round-corner-card-no-icon-root-class-name {
+  height: auto;
+  align-self: stretch;
+  background-color: var(--dl-color-primary-500);
+}
