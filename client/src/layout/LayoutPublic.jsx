@@ -1,15 +1,12 @@
 import React from 'react'
-import Header from "../components/header/header";
-import Footer from "../components/footer/footer";
-import SolidButton from "../components/solid-button/solid-button";
+import Navbar from "../components/Navbar/navbar.jsx";
+import Footer from "../components/Footer/footer.jsx";
 import { Outlet } from "react-router-dom";
-
 
 const LayoutPublic = () => {
   return (
     <>
-    <Header />
-    <SolidButton />
+    <Navbar />
     <Outlet />
     <Footer />
     </>
