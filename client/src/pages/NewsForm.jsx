@@ -3,8 +3,9 @@ import { createNews, updateNews } from '../services/newsServices';
 import { useLoaderData, useNavigate, useParams } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { uploadImage } from '../helpers/cloudinary';
-import TipTap from '../components/TipTap';
-import './NewsForm.css'
+import './NewsForm.css';
+import { CKEditor } from '@ckeditor/ckeditor5-react';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import Swal from 'sweetalert2';
 
 const NewsForm = ({ method }) => {
@@ -12,18 +13,14 @@ const NewsForm = ({ method }) => {
   const navigate = useNavigate();
   const newsData = useLoaderData();
   const [newsImage, setNewsImage] = useState(() => newsData ? newsData.image : "");
-  const [newsContent, setNewsContent] = useState('');
-  const handleEditorContentSave = (html) =>{
-    setNewsContent(html);
-    console.log('Manejando contenido del editor:', html)
-  }
+  const [newsContent, setNewsContent] = useState('')
 
   useEffect(() => {
     if (newsData) {
       setValue("title", newsData.title);
       setValue("subtitle", newsData.subtitle);
       setValue("date", newsData.date);
-      setValue("content", newsData.content);
+      setValue("content", newsData.data);
       setValue("category", newsData.category.split(","))
     }
   }, []);
@@ -71,7 +68,26 @@ const NewsForm = ({ method }) => {
       <input className='date-input' {...register("date", { required: true })} id="date" type='date' />
       {errors.date && errors.date.type === "required" && <div className="text-red-500">La fecha es requerida</div>}
 
-      <TipTap onEditorContentSave={handleEditorContentSave}/>
+      <CKEditor
+                    editor={ ClassicEditor }
+                    data=""
+                    onReady={ editor => {
+                        // You can store the "editor" and use when it is needed.
+                        console.log( 'Editor is ready to use!', editor );
+                    } }
+                    onChange={ ( event ) => {
+                        const data = editor.getData('');
+                        setNewsContent(data);
+                        setValue("content",data)
+                        console.log( event, data );
+                    } }
+                    onBlur={ ( event, editor ) => {
+                        console.log( 'Blur.', editor );
+                    } }
+                    onFocus={ ( event, editor ) => {
+                        console.log( 'Focus.', editor );
+                    } }
+                />
      
       <fieldset className='flex-column ml-2'>
         <legend>Categorías:</legend>
